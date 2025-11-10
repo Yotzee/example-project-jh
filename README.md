@@ -5,10 +5,12 @@ This application is designed to connect customers to the NOAA weather station se
 and return the current weather status in hot, cold, moderate
 
 ## Build
+```
 go mod download
 go mod verify
 go build -o weather-service main.go
 ./weather-service
+```
 
 ## Deployment
 
